@@ -2,8 +2,6 @@
 
 A full-stack project that demonstrates how to build a blockchain and cryptocurrency system using Python for the backend and JavaScript/React for the frontend. This project is an attempt to create a functional blockchain and cryptocurrency system, showcasing the core principles of blockchain technology
 
-## 🚀 Project Goals
-
 ## 🛠 Technologies Used
 
 ### Backend (Blockchain & Cryptocurrency System)
