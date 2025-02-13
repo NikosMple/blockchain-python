@@ -1,0 +1,130 @@
+:root {
+  --primary-color: #6a11cb;
+  --secondary-color: #2575fc;
+  --accent-color: #ff6b6b;
+  --background: #1a1a1a;
+  --text-light: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.05);
+}
+
+body {
+  background: var(--background);
+  color: var(--text-light);
+  font-size: 1.4rem;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.WalletInfo, .Block, .Transaction, .Blockchain, .ConductTransaction, .TransactionPool {
+  width: 100%;
+  max-width: 800px;
+  background: var(--card-bg);
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 1rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h1, h2, h3 {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+
+input, button {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  margin: 0.5rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-light);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+button {
+  background: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .WalletInfo, .Block, .Transaction, .Blockchain, .ConductTransaction, .TransactionPool {
+    padding: 1.5rem;
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
