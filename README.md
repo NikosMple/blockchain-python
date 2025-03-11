@@ -91,9 +91,8 @@ npm start
 
 ### 📄 Conclusion
 ```
-This project serves as a hands-on introduction to blockchain development using Python and JavaScript.
-It covers key concepts like block validation, cryptographic transactions, and decentralized networking.
-By working on this project, I gained a solid understanding of how blockchain systems function under the hood.
-Through practical implementation, I deepened my knowledge of blockchain principles, cryptographic techniques,
-and full-stack development, which has equipped me with the skills to build and expand decentralized systems.
+This project was developed as part of a blockchain development course using Python and JavaScript.
+It covers key concepts such as block validation, cryptographic transactions, and decentralized networking.
+Through hands-on implementation, I gained a solid understanding of blockchain principles, cryptographic techniques,
+and full-stack development, which has prepared me to build and expand decentralized systems.
 ```
